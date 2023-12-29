@@ -1,0 +1,10 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  webflux:
+    base-path: /reactive-flashcards
+  data:
+    mongodb:
+      uri: mongodb://db:27017/reactive-flashcards
+
+
